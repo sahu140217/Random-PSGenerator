@@ -1,0 +1,67 @@
+
+body{
+    background-color: darkgrey;
+   
+}
+ 
+.box{
+    background-color: cadetblue;
+    margin-top: 200px;
+    margin-left: 200px;
+    margin-right: 200px;
+    padding: 20px; 
+    border-radius: 10px 60px;
+    height: 400px;
+    width: 450px;
+    text-shadow: 0px 2px 2px blanchedalmond;
+    box-shadow: 0px 2px 4px 0px rgb(87, 16, 158);
+    /* box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);; */
+    transition: width 2s;
+   
+}
+
+p{
+    font-size: 30px;
+    
+}
+
+
+#fname{
+    border-radius: 30px;
+    width: 200px;
+    height:25px;
+    background-color: rgb(214, 182, 170);
+}
+
+#lname{
+    border-radius: 30px;
+    width: 200px;
+    height:25px;
+    background-color: rgb(214, 182, 170);
+}
+
+#number{
+    border-radius: 30px;
+    width: 200px;
+    height:25px;
+    background-color: rgb(214, 182, 170);
+   
+}
+
+#password{
+    border-radius: 30px;
+    width: 200px;
+    height:25px;
+    background-color: rgb(214, 182, 170);
+   
+}
+
+button{
+    border-radius: 30px;
+    width: 300px;
+    height: 50px;
+    background-color: rgb(194, 186, 174);
+    font-size: x-large;
+    text-shadow: 0px 5px 2px rgb(30, 203, 212);
+}
+

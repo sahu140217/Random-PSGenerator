@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+    <link rel="stylesheet" href="style.css">
+ 
+<head>
+    <title>Password-Generator</title>
+</head>
+
+<body>
+    <div class="box">
+    <p>Password Generator</p>
+
+    <div class="container">
+        <input type="text"   placeholder="Enter your first name"    id="fname"> <br> <br>
+        <input type="text"   placeholder="Enter your last name"     id="lname"> <br> <br>
+        <input type="number" placeholder="Enter contact number"     id="number" > <br> <br>
+        <input type="text" id="password"> <br> <br>
+    </div>
+
+    <button onclick="pass()">Generate-Password</button>
+    </div>
+
+     <script>
+
+ 
+    const password = document.getElementById("password");
+
+    function pass(){
+    
+    const fname=document.getElementById("fname").value;
+    const lname=document.getElementById("lname").value;
+    const number=document.getElementById("number").value;
+    const symbol="$#@!%^&*";
+
+    let pass= "";
+
+    pass += fname [Math.floor(Math.random()* fname.length)];
+    pass += fname [Math.floor(Math.random()* fname.length)];
+    pass += fname [Math.floor(Math.random()* fname.length)];
+    pass += fname [Math.floor(Math.random()* fname.length)];
+
+    pass += lname [Math.floor(Math.random()* lname.length)];
+    pass += lname [Math.floor(Math.random()* lname.length)];
+
+    pass += symbol [Math.floor(Math.random()* symbol.length)];
+
+    pass += number [Math.floor(Math.random()* number.length)];
+    pass += number [Math.floor(Math.random()* number.length)];
+    pass += number [Math.floor(Math.random()* number.length)];
+    pass += number [Math.floor(Math.random()* number.length)];
+    pass += number [Math.floor(Math.random()* number.length)];
+
+    password.value = pass;
+}
+    </script> 
+
+</body>
+</html>  
